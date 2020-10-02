@@ -9,6 +9,7 @@ import streamlit as st
 import re
 import nltk
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
 import pickle
 from sklearn.naive_bayes import MultinomialNB
